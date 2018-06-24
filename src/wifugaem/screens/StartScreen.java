@@ -3,7 +3,7 @@ package wifugaem.screens;
 import java.awt.event.KeyEvent;
 import asciiPanel.AsciiPanel;
 
-public class StartScreen implements Screen{
+public class StartScreen implements Screen {
     public void displayOutput(AsciiPanel terminal) {
         terminal.write("rl tutorial", 1, 1);
         terminal.writeCenter("-- press [enter] to start --", 22);
